@@ -1,0 +1,398 @@
+.navbar .nav > li > a:hover {
+    color: #02b3e4;
+}
+.navbar .nav,
+.navbar .nav > li {
+    float: none;
+    display: inline-block;
+    *display: inline;
+    /* ie7 fix */
+    
+    *zoom: 1;
+    /* hasLayout ie7 trigger */
+    
+    vertical-align: top;
+}
+.navbar-inner {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .navbar-header {
+        display: none;
+    }
+}
+.card-style-card + .card-style-card {
+    margin-top: 1.42857rem;
+}
+.card-style-card {} .card-style-card-2 {} .card-style-card-base {
+    background: #fff;
+    border-radius: 0.42857rem;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.card-style-section-base {
+    margin: 0 auto;
+    /* max-width: 61.42857rem;*/
+    
+    max-width: 100%;
+}
+.card-padding {
+    padding: 2.85714rem;
+}
+.education-section-cont {
+    margin-top: 4.28571rem;
+}
+.education-main-head {
+    text-align: center;
+}
+.education-card-style {
+    position: relative;
+    margin-bottom: 1.42857rem;
+}
+._education-first-card {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #a951ed;
+}
+.education-box-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35714rem;
+}
+.education-diploma-box {
+    display: inline-block;
+    line-height: 1.71429rem;
+}
+.education-dates {
+    line-height: 1.14286rem;
+}
+.card-base-card {
+    background: #fff;
+    border-radius: 0.42857rem;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/*.card--_section_base--2wQ2Z {
+    margin: 0 auto;
+    max-width: 61.42857rem;
+}*/
+
+.education-box-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35714rem;
+}
+.education-college-name {
+    font-size: 1.14286rem;
+    color: #2e3d49;
+    font-weight: 600;
+    line-height: 1.57143rem;
+    margin-bottom: 0.35714rem;
+}
+.education-explaination {
+    white-space: pre-line;
+}
+.img-shadow {
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+.img-bord {
+    border-radius: 5%;
+}
+.text-for-header {
+    font-size: 2.75rem;
+    font-weight: 300;
+    color: #2e3d49;
+    margin: 1.71429rem 0;
+}
+.text-samll-Toupper-case {
+    text-transform: uppercase;
+    letter-spacing: 0.07143rem;
+}
+.text-samll-case-deco {
+    color: #7d97ad;
+    font-weight: 600;
+    font-size: 12px;
+}
+.text-label-deco {
+    color: #2e3d49;
+    font-size: 1.28571rem;
+}
+.text-explanation-d {
+    color: #525c65;
+    font-size: 1.25rem;
+    line-height: 1.71429rem;
+}
+.contain-layout-pos {
+    max-width: 61.42857rem;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2.85714rem;
+}
+.round-icons-logo {
+    border-radius: 40%;
+    width: 125px;
+    height: 125px;
+}
+/* 
+.photo-user {
+    top: 1.5rem;
+    left: calc(50% - 80px);
+    max-width: 7.14286rem;
+    max-height: 7.14286rem;
+}
+
+.icon-pos {
+  position: absolute; 
+}*/
+/*.logo-wrap-border{
+    background-color: rgba(243,246,248,.94);
+   /* border: 4px solid #7d97ad;
+    border: 4px solid #fff;
+    box-sizing: content-box;
+    margin: auto;
+    position: relative
+}*/
+
+html img {
+    max-width: 100%;
+}
+.click {
+    cursor: pointer;
+}
+body {
+    /*  font-family: 'Lato', sans-serif;
+   font-family: 'Philosopher', sans-serif;
+    font-family: 'VT323', monospace;
+    font-family: 'Architects Daughter', cursive;
+    
+    font-family: 'Audiowide', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'IM Fell DW Pica', serif;*/
+    
+    font-family: 'Special Elite', cursive;
+    color: #333;
+    font-weight: 400;
+}
+h1 {
+    font-size: 46px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #5f5f5f;
+}
+.thick-text {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #5f5f5f;
+}
+.text-mute {
+    color: #BCBBBB;
+}
+.text-thin {
+    font-weight: 100;
+}
+.logo-arr {
+    margin-top: 23px;
+}
+.supertext {
+    font-size: 50px;
+}
+.profile-text {
+    margin: 0 auto;
+    font-size: 2.28571rem;
+    text-align: center;
+    padding: 1.42857rem 0;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.arrlr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-half {
+    width: 50%;
+}
+.left-align {
+    text-align: left;
+}
+.right-align {
+    text-align: right;
+    padding-right: 0px;
+}
+.center-align {
+    text-align: center;
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.account-link {
+    padding: 0 1.42857rem;
+    border-right: 0.07143rem solid #dbe2e8;
+}
+.text-link {
+    color: #02b3e4;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.07143rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+a {
+    color: #02B3E9;
+    text-decoration: none;
+    font-weight: 600;
+}
+.proj-border {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #ff5483;
+}
+.carbon {
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+@media only screen and (max-width: 990px) {
+    .img-centering {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.marg {
+    margin-top: 52px;
+}
+.marg-bottom-proj-box {
+    margin-bottom: 20px;
+}
+.publication_element-first {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #7d97ad;
+}
+.publication-align {
+    margin-bottom: 70px;
+}
+.skill-box-margin {
+    margin-top: 4.28571rem;
+}
+.skills {} .skill-cardstyle-inital {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #02b3e4;
+    position: relative;
+    text-align: center;
+}
+.skill-box-skill {
+    font-size: 1.6rem;
+    color: #7d97ad;
+    display: inline-block;
+    margin-right: 1.42857rem;
+    margin-bottom: 0.92857rem;
+}
+.skill-level-bar {
+    display: inline-block;
+    position: relative;
+    height: 11px;
+    margin-right: 5px;
+    top: 1px;
+    width: 10px;
+}
+.skill-level-bar-1 {
+    position: absolute;
+    background-color: #7d97ad;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+}
+.skill-level-bar-unshaded {
+    background-color: #dbe2e8;
+}
+.skill-level-bar-shaded {
+    background-color: #7d97ad;
+}
+.skill-level-bar-2 {
+    position: absolute;
+    height: 8px;
+    left: 4px;
+    bottom: 0;
+    width: 2px;
+}
+.skill-level-bar-3 {
+    position: absolute;
+    height: 11px;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+}
+.main-work-sec {
+    margin-top: 4.28571rem;
+}
+.header-work-sec {
+    margin-bottom: 1.42857rem;
+    text-align: center;
+}
+.container-for-work {} .work-style-card {
+    position: relative;
+    margin-bottom: 1.42857rem;
+}
+.work-first-block {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #15c26b;
+}
+.work-flex-cot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35714rem;
+}
+.work-pos-bo {
+    font-size: 1.5rem;
+    color: #2e3d49;
+    line-height: 1.71429rem;
+    flex: 1;
+}
+.work-date-bo {
+    line-height: 1.14286rem;
+}
+.work-employ-prev {
+    margin-bottom: 0.35714rem;
+}
+.work-employ-prev span {
+    display: inline-block;
+}
+.work-company {
+    font-size: 1.14286rem;
+    color: #2e3d49;
+    font-weight: 600;
+    line-height: 1.57143rem;
+    flex: 1;
+}
+.work-employ-prev span {
+    display: inline-block;
+}
+.work-explain {
+    white-space: pre-line;
+    font-weight: 400;
+    margin-bottom: 1.42857rem;
+}

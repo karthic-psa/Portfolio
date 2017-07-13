@@ -1,0 +1,52 @@
+.main-work-sec {
+    margin-top: 4.28571rem;
+}
+.header-work-sec {
+    margin-bottom: 1.42857rem;
+    text-align: center;
+}
+.container-for-work {} .work-style-card {
+    position: relative;
+    margin-bottom: 1.42857rem;
+}
+.work-first-block {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #15c26b;
+}
+.work-flex-cot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35714rem;
+}
+.work-pos-bo {
+    font-size: 1.5rem;
+    color: #2e3d49;
+    line-height: 1.71429rem;
+    flex: 1;
+}
+.work-date-bo {
+    line-height: 1.14286rem;
+}
+.work-employ-prev {
+    margin-bottom: 0.35714rem;
+}
+.work-employ-prev span {
+    display: inline-block;
+}
+.work-company {
+    font-size: 1.14286rem;
+    color: #2e3d49;
+    font-weight: 600;
+    line-height: 1.57143rem;
+    flex: 1;
+}
+.work-employ-prev span {
+    display: inline-block;
+}
+.work-explain {
+    white-space: pre-line;
+    font-weight: 400;
+    margin-bottom: 1.42857rem;
+}

@@ -1,0 +1,56 @@
+.education-section-cont {
+    margin-top: 4.28571rem;
+}
+.education-main-head {
+    text-align: center;
+}
+.education-card-style {
+    position: relative;
+    margin-bottom: 1.42857rem;
+}
+._education-first-card {
+    border-top-width: 0.35714rem;
+    border-top-style: solid;
+    border-top-color: #a951ed;
+}
+.education-box-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35714rem;
+}
+.education-diploma-box {
+    display: inline-block;
+    line-height: 1.71429rem;
+}
+.education-dates {
+    line-height: 1.14286rem;
+}
+.card-base-card {
+    background: #fff;
+    border-radius: 0.42857rem;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/*.card--_section_base--2wQ2Z {
+    margin: 0 auto;
+    max-width: 61.42857rem;
+}*/
+
+.education-box-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35714rem;
+}
+.education-college-name {
+    font-size: 1.14286rem;
+    color: #2e3d49;
+    font-weight: 600;
+    line-height: 1.57143rem;
+    margin-bottom: 0.35714rem;
+}
+.education-explaination {
+    white-space: pre-line;
+}

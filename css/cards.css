@@ -1,0 +1,19 @@
+.card-style-card + .card-style-card {
+    margin-top: 1.42857rem;
+}
+.card-style-card {} .card-style-card-2 {} .card-style-card-base {
+    background: #fff;
+    border-radius: 0.42857rem;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.card-style-section-base {
+    margin: 0 auto;
+    /* max-width: 61.42857rem;*/
+    
+    max-width: 100%;
+}
+.card-padding {
+    padding: 2.85714rem;
+}
