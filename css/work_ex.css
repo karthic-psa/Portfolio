@@ -42,6 +42,14 @@
     line-height: 1.57143rem;
     flex: 1;
 }
+.work-location{
+    font-size: 1.14286rem;
+    color: #2e3d49;
+    font-weight: 600;
+    line-height: 1.57143rem;
+    flex: 1;
+    text-align: right;
+}
 .work-employ-prev span {
     display: inline-block;
 }
