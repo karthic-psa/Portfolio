@@ -175,10 +175,41 @@ textarea.form-control{
 }
 
  #abtMe{
-     color: #fff;
+     color: mintcream;
+     margin-right: 15px;
+     margin-left: 15px;
  }
   #abtMe-Head{
-     color: #fff;
+     color: lightgrey;
      margin-top: 20px;
      font-size: 25px;
+     outline: 1px solid lightgray;
+     margin-right: auto;
+     margin-left: auto;
+     
+     
+ }
+
+ @media screen and (max-width: 759px){
+
+#abtMe{
+
+    display: none;
+}    
+
+#abtMe-small{
+     color: mintcream;
+     margin-right: 15px;
+     margin-left: 15px;
+
+}
+
+
+ }
+ @media screen and (min-width: 759px){
+     #abtMe-small{
+
+    display: none;
+     
+    }
  }
