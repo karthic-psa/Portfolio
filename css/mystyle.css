@@ -186,8 +186,8 @@ textarea.form-control{
      outline: 1px solid lightgray;
      margin-right: auto;
      margin-left: auto;
-     
-     
+
+
  }
 
  @media screen and (max-width: 759px){
@@ -195,7 +195,7 @@ textarea.form-control{
 #abtMe{
 
     display: none;
-}    
+}
 
 #abtMe-small{
      color: mintcream;
@@ -213,7 +213,7 @@ textarea.form-control{
     color: mintcream;
      margin-right: 15px;
      margin-left: 15px;
-     
+
     }
  }
 
@@ -244,4 +244,7 @@ textarea.form-control{
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
+}
+.marg-bottom{
+  margin-bottom: 20px;
 }
