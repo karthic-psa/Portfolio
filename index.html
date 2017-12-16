@@ -613,7 +613,6 @@
                     </div>
                 </div>
                 <div class="row">
-
                     <div class="col-md-6">
                         <img src="images_src/rsz_moviet.jpg" alt="project movie trailer website" class="img-centering img-responsive img-shadow proj-border click" data-toggle="modal" data-target="#project1">
                         <h3 class="text-center">Movie Trailer Website</h3>
@@ -627,17 +626,31 @@
                         </nav>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row marg-bottom">
                     <div class="col-md-6">
-                        <img src="images_src/rsz_cloud.jpg" alt="Deep Learning - Evaluations of AWS, GCP and Microsoft Azure" class="img-centering img-responsive img-shadow click" data-toggle="modal" data-target="#project3">
-                        <h3 class="text-center">Evaluation of Cloud based deep learning across GCP, AWS & Microsoft Azure</h3>
-                        <nav class="text-center"><a href="#">Link to Project</a>
+                        <img src="images_src/rsz_2-brackethalf.jpg" alt="Tournament Results Database" class="img-centering img-responsive img-shadow click" data-toggle="modal" data-target="#project3">
+                        <h3 class="text-center">Tournament Results</h3>
+                        <nav class="text-center"><a href="https://github.com/karthic-psa/Tournament-Results-Database">Link to Project</a>
                         </nav>
                     </div>
                     <div class="col-md-6">
                         <img src="images_src/rsz_portbuild.jpg" alt="Portfolio Website" class="img-centering img-responsive img-shadow click" data-toggle="modal" data-target="#project4">
                         <h3 class="text-center">Build a Portfolio</h3>
                         <nav class="text-center"><a href="https://github.com/karthic-psa/karthic-psa.github.io" target="_blank">Link to Project</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images_src/rsz_log-analysis-tools.jpg" alt="Logs Analysis" class="img-centering img-responsive img-shadow click" data-toggle="modal" data-target="#project5">
+                        <h3 class="text-center">Logs Analysis</h3>
+                        <nav class="text-center"><a href="https://github.com/karthic-psa/Logs-Analysis-">Link to Project</a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images_src/rsz_houston-museum-district-map.jpg" alt="Neighbourhood Map" class="img-centering img-responsive img-shadow click" data-toggle="modal" data-target="#project6">
+                        <h3 class="text-center">Neighbourhood Map</h3>
+                        <nav class="text-center"><a href="https://github.com/karthic-psa/Neighbourhood-Map" target="_blank">Link to Project</a>
                         </nav>
                     </div>
                 </div>
@@ -718,15 +731,15 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabe3">Evaluation of Cloud based deep learning across GCP, AWS & Microsoft Azure</h4>
+                        <h4 class="modal-title" id="myModalLabe3">Tournament Results</h4>
                     </div>
                     <div class="modal-body">
                         <article>
-                            <img class="img-responsive" src="images_src/rsz_cloud.jpg" alt="Description of the Deep Learning project">
+                            <img class="img-responsive" src="images_src/rsz_2-brackethalf.jpg" alt="Description of the Deep Learning project">
                             <br />
                             <h4>Decription:</h4>
                             <br />
-                            <p class="text-justify">Among the providers of public cloud there are three dominant players; Google Cloud Platform, Amazon Web Services and Microsoft Azure. Each of these service providers slightly differ from each other and directly compete on price. Knowing the advantages and disadvantages of each service can be a key factor for a business transitioning to cloud. However, because of their large scale and variety it is difficult to effectively compare what services are better suited to a given requirement. In our project, we compare different aspects of a machine learning service across all three platforms. We build classification models over datasets which vary in size and structure and compare ML results and evaluation metrics across three platforms. It is required to have prior knowledge of machine learning which will include tasks like acquiring relevant datasets, cleaning, and formatting data, splitting the dataset for evaluation (n-fold cross validation, percentage split), building models over dataset (some service providers have a black box to build models) and understanding evaluation metrics. A black box may be one or more custom algorithms working together to generate a general model from data. Collected data sets are cleaned and formatted to match the requirements of the platform. Store the data in respective cloud storage service and initiate machine learning instance. We then define formats for each data column and tell the CSP (cloud service provider) what is your target class (the part of the data set which has to be predicted). Once we confirm the structure of the data we configure the CSP to learn a model from the data. These configuration settings have to be recorded to understand how metrics vary across different configuration settings for the same CSP. The outputs are recorded to CSP’s storage service and are compared. Comparison between different settings will provide us enough information to analyze and select best CSP for a business.</p>
+                            <p class="text-justify">Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.</p>
                         </article>
                     </div>
                     <div class="modal-footer">
@@ -758,6 +771,50 @@
             </div>
         </div>
         <!-- Modal-5-->
+        <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabe5">Logs Analysis</h4>
+                    </div>
+                    <div class="modal-body">
+                        <article>
+                            <img class="img-responsive" src="images_src/rsz_log-analysis-tools.jpg" alt="Description of the logs analysis project">
+                            <br />
+                            <h4>Decription:</h4>
+                            <br />
+                            <p class="text-justify">Applied SQL skills to a reporting tool that summarizes data from a large database.</p>
+                        </article>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-6-->
+        <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabe6">Neighbourhood Map</h4>
+                    </div>
+                    <div class="modal-body">
+                        <article>
+                            <img class="img-responsive" src="images_src/rsz_houston-museum-district-map.jpg" alt="Description of the Neighbourhood Map project">
+                            <br />
+                            <h4>Decription:</h4>
+                            <br />
+                            <p class="text-justify">A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest. Users can search all included landmarks and, when selected, additional information about a landmark is presented from the FourSquare and Wikipedia APIs.</p>
+                        </article>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-7-->
         <div class="modal fade" id="publications" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
