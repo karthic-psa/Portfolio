@@ -175,19 +175,21 @@ textarea.form-control{
 }
 
  #abtMe{
+     font-family: 'Play', sans-serif;
      color: mintcream;
      margin-right: 15px;
      margin-left: 15px;
+     font-size: 16px;
  }
   #abtMe-Head{
+     font-family: 'Play', sans-serif;
      color: lightgrey;
-     margin-top: 20px;
-     font-size: 25px;
-     outline: 1px solid lightgray;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     font-size: 30px;
+  /* outline: 1px solid lightgray;*/
      margin-right: auto;
      margin-left: auto;
-
-
  }
 
  @media screen and (max-width: 759px){
@@ -199,8 +201,10 @@ textarea.form-control{
 
 #abtMe-small{
      color: mintcream;
+     font-family: 'Play', sans-serif;
      margin-right: 35px;
      margin-left: 35px;
+     font-size: 18px;
 
 }
 
@@ -216,6 +220,40 @@ textarea.form-control{
 
     }
  }
+
+  @media screen and (max-width: 394px){
+    #abtMe-mini{
+      color: mintcream;
+      font-family: 'Play', sans-serif;
+      margin-right: 35px;
+      margin-left: 35px;
+      font-size: 15px;
+    }
+    #abtMe-Head{
+      font-family: 'Play', sans-serif;
+      color: lightgrey;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 25px;
+   /* outline: 1px solid lightgray;*/
+      margin-right: auto;
+      margin-left: auto;
+    }
+    #abtMe{
+      display: none;
+    }
+    #abtMe-small{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 395px){
+
+    #abtMe-mini{
+      display: none;
+
+    }
+
+  }
 
  .w3-button:hover {
     color: #000!important;
